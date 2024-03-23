@@ -20,13 +20,15 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Login</h1>
-      <div className="form-fields">
-        <input  placeholder="E-mail" type="text" onChange={(e) => setEmail(e.target.value)} />
-        <input placeholder="Senha" type="password" onChange={(e) => setPassword(e.target.value)} />
-        <button onClick={handleOnClick}>Acessar</button>
+      <div className="container">
+        <h1>Login</h1>
+        <div className="form-fields">
+          <input  placeholder="E-mail" type="text" onChange={(e) => setEmail(e.target.value)} />
+          <input placeholder="Senha" type="password" onChange={(e) => setPassword(e.target.value)} />
+          <button onClick={handleOnClick}>Acessar</button>
+        </div>
+        <label>{message}</label>
       </div>
-      <label>{message}</label>
     </div>
   );
 }
