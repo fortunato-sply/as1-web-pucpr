@@ -1,0 +1,15 @@
+.form-fields {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 10vw;
+}
+
+.App {
+  padding-left: 36px;
+}
+
+button {
+  width: 50%;
+}
